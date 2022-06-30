@@ -1,0 +1,66 @@
+.l_menu_top {
+    height: 186px;
+}
+
+.l_menu_top img {
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.set_arrow {
+    position: fixed;
+    top: 95px;
+    left: 200px;
+}
+
+.set_design {
+    width: 248px;
+    height: 72px;
+
+    background: rgba(255, 255, 255, 0.04);
+    margin: 24px auto;
+    border-radius: 8px;
+    list-style-type: none;
+}
+
+.set_design li {
+    width: 180px;
+    height: 50px;
+    text-align: left;
+    padding: 15px 20px;
+}
+
+.set_design p {
+    color: #9CA3AF;
+    font-size: 14px;
+    padding-top: 7.5px;
+}
+
+.l_menu_center {
+    border: 1px solid red;
+    height: 100%;
+}
+
+.l_menu_bottom {
+    border: 1px solid red;
+    height: 306px;
+}
+
+/* set menu 
+Настройка центрального меню */
+
+.set_blc_menu_center {
+    display: flex;
+    align-items: center;
+
+}
+
+.set_blc_menu_center img {
+    margin: 10px 15px;
+}
+
+.menu_active {
+    width: 248px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+}
